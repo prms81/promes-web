@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMES GLOBAL | Ultra-Luxury Real Estate</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Arial, sans-serif; }
+        body { background-color: #0d0d0d; color: #ffffff; }
+        nav { position: fixed; top: 0; left: 0; width: 100%; padding: 30px 50px; z-index: 1000; background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)); }
+        .logo { float: left; font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; }
+        .nav-links { float: right; list-style: none; }
+        .nav-links li { display: inline-block; margin-left: 35px; }
+        .nav-links a { color: #ffffff; text-decoration: none; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; opacity: 0.8; }
+        .hero { height: 100vh; width: 100%; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; }
+        .hero h1 { font-size: 48px; font-weight: 300; letter-spacing: 6px; text-transform: uppercase; margin-bottom: 20px; }
+        .hero p { font-size: 14px; letter-spacing: 3px; text-transform: uppercase; opacity: 0.7; margin-bottom: 40px; }
+        .btn { display: inline-block; padding: 15px 40px; border: 1px solid #ffffff; color: #ffffff; text-decoration: none; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; transition: all 0.4s; }
+        .btn:hover { background-color: #ffffff; color: #0d0d0d; }
+        .showcase { padding: 100px 50px; max-width: 1200px; margin: 0 auto; }
+        .section-title { font-size: 24px; font-weight: 300; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 60px; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .grid-item { background: #141414; border: 1px solid #222; }
+        .grid-img { height: 250px; background-size: cover; background-position: center; }
+        .grid-info { padding: 25px; }
+        .grid-info h3 { font-size: 16px; font-weight: 400; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+        .grid-info p { font-size: 12px; color: #888; margin-bottom: 15px; }
+        .grid-price { font-size: 14px; color: #fff; }
+        footer { border-top: 1px solid #222; padding: 40px; text-align: center; background: #050505; font-size: 11px; letter-spacing: 2px; opacity: 0.5; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">PROMES GLOBAL</div>
+        <ul class="nav-links">
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Portföy</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h1>Sınırların Ötesinde Bir Yaşam</h1>
+        <p>Seçkin mülkler ve küresel gayrimenkul danışmanlığı</p>
+        <a href="#" class="btn">Koleksiyonu Keşfet</a>
+    </div>
+    <div class="showcase">
+        <h2 class="section-title">Öne Çıkan Portföyler</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <div class="grid-img" style="background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="grid-info">
+                    <h3>The Horizon Villa</h3>
+                    <p>Bodrum, Muğla • 6+2 • 550 m²</p>
+                    <div class="grid-price">$4,250,000</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-img" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="grid-info">
+                    <h3>Monolith Residence</h3>
+                    <p>Sarıyer, İstanbul • 4+1 • 320 m²</p>
+                    <div class="grid-price">$2,900,000</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-img" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="grid-info">
+                    <h3>The Edge Penthouse</h3>
+                    <p>Levent, İstanbul • 3+1 • 240 m²</p>
+                    <div class="grid-price">$1,850,000</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © 2026 PROMES GLOBAL. TÜM HAKLARI SAKLIDIR.
+    </footer>
+</body>
+</html>
